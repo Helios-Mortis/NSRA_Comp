@@ -1,0 +1,8 @@
+{
+  "name": "NSRA Shooting Tracker",
+  "short_name": "NSRA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003366"
+}

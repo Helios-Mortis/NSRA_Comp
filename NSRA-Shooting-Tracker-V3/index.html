@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NSRA Shooting Tracker</title>
+
+manifest.json
+<linktyle.css
+</head>
+
+<body>
+
+<header>
+<h1>NSRA Shooting Tracker 2026/27</h1>
+</header>
+
+<nav>
+<button onclick="showTab('dashboard')">Dashboard</button>
+<button onclick="showTab('calendar')">Calendar</button>
+<button onclick="showTab('scores')">Scores</button>
+<button onclick="showTab('stats')">Statistics</button>
+</nav>
+
+<section id="dashboard" class="tab">
+<h2>Next Thursday</h2>
+<div id="nextTargets"></div>
+</section>
+
+<section id="calendar" class="tab hidden">
+<h2>Competition Calendar</h2>
+<div id="calendarView"></div>
+<button onclick="exportICS()">Export Calendar</button>
+</section>
+
+<section id="scores" class="tab hidden">
+
+<h2>Add Result</h2>
+
+<select id="competition"></select>
+
+<input type="number" id="round" placeholder="Round">
+
+<input type="number" id="score" placeholder="Score">
+
+<input type="number" id="xCount" placeholder="X Count">
+
+<input type="text" id="ammo" placeholder="Ammo Lot">
+
+<input type="text" id="notes" placeholder="Notes">
+
+<input type="file" id="cardImage" accept="image/*">
+
+<button onclick="saveResult()">Save</button>
+
+<div id="results"></div>
+
+</section>
+
+<section id="stats" class="tab hidden">
+<h2>Statistics</h2>
+<div id="statistics"></div>
+</section>
+
+<script src="data/competitions/storage.jsscript>
+<script src="sscript>
+<script srccs.jsscript>
+<script srcript>
+
+</body>
+</html>
